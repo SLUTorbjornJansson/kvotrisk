@@ -1,3 +1,5 @@
+// kommentar //
+
 PARAMETERS
     MC      Marginalkostnad (kronor per kg) /50/
     Pin     Pris inom kvot (kronor per kg) /100/
