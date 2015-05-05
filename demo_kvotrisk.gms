@@ -1,8 +1,5 @@
 // kommentar //
 
-// kommentar //
-* mer kommmentar till formas
-
 PARAMETERS
     MC      Marginalkostnad (kronor per kg) /50/
     Pin     Pris inom kvot (kronor per kg) /100/
@@ -58,7 +55,7 @@ e_mr ..
            - (Pin-Pout)*1/[1+EXP(-(v_catch-kvot)/s)];
 
 
-MODEL m_kvotrisk "Mikroekonomisk modell av fångstkvot"/ALL/;
+MODEL m_kvotrisk /ALL/;
 
 *   Beräkna den logistiska fördelningens parametrar utifrån givna data
 s = SQRT(3)*sdev/PI;
